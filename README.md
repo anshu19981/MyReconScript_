@@ -48,3 +48,15 @@ A powerful, fast, and feature-rich reconnaissance tool that performs deep passiv
 git clone https://github.com/yourusername/DeepRecon.git
 cd DeepRecon
 pip install -r requirements.txt
+
+
+
+Note: Script mostly uses external Go tools (subfinder, httpx, nuclei, etc.). Make sure they are installed and available in your $PATH.
+
+Required Tools:
+
+subfinder, assetfinder, amass, httpx, nuclei, katana, gowitness, gf, dnsx, naabu, gau
+
+Optional Tools:
+
+waybackurls, subjs, corsy, subzy
